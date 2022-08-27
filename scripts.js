@@ -12,26 +12,26 @@ console.log("last element",lastEl);
 
 console.log(lastEl - firstEl)
 
+//Add a new age to your array and repeat the step above to ensure it is dynamic (works for arrays of different lengths).
 ages.push(100);
 
 console.log("ages after push" ,ages);
 
-console.log(firstEl)
-console.log(lastEl - firstEl) // don't use the reduced method in js, use forloop instead
 
 
+//Use a loop to iterate through the array and calculate the average age. Print the result to the console.
 // first need to add all elements in the array and store in sum
 //sum # of elements in the array
 
-
 let total = 0;
-
+console.log(total);
 for(let i = 0; i < ages.length; i++) {
     total = total + ages[i];
 }
-console.log(total);
 // create the average
+console.log('Average age in ages array =  ' + (total / ages.length));
 
+//Create an array called names that contains the following values: ‘Sam’, ‘Tommy’, ‘Tim’, ‘Sally’, ‘Buck’, ‘Bob’.
 let names = ["Sam","Tommy", "Tim", "Sally", "Buck", "Bob"];
 console.log(names);
 
